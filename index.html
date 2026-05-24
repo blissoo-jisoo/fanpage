@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLISSOO | JISOO Fanpage</title>
+  <!-- 引入 Tailwind CSS（使用 CDN 引入，極省 Token） -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- 使用官方標誌性的粉淺紫灰背景 (#E4E2EE) -->
+<body class="bg-[#E4E2EE] text-[#555555] font-sans tracking-widest antialiased m-0 p-0">
+
+  <!-- 1. 頂部導覽列 -->
+  <nav class="fixed top-0 left-0 w-full z-50 px-8 py-6 flex justify-between items-center mix-blend-difference">
+    <div class="text-white font-medium text-xl tracking-wider">BLISSOO.FAN</div>
+    <ul class="flex space-x-6 text-white text-xs font-light">
+      <li><a href="#about" class="hover:underline">ABOUT</a></li>
+    </ul>
+  </nav>
+
+  <!-- 2. 首頁形象看板區 -->
+  <!-- 這裡使用了官方深迷霧紫 (#9C98B9) -->
+  <section class="relative min-h-screen bg-[#9C98B9] flex flex-col justify-center items-center px-6 text-center">
+    <!-- 背景圖片預留位置：你可以上傳一張照片到 images 資料夾，命名為 hero.jpg -->
+    <img src="images/hero.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-multiply">
+    
+    <!-- 形象文字 -->
+    <div class="relative z-10 text-white">
+      <h1 class="text-5xl md:text-7xl font-extralight tracking-[0.2em] mb-4">JISOO</h1>
+      <p class="text-xs md:text-sm tracking-[0.3em] uppercase opacity-80 font-light">A gift box filled with boundless happiness</p>
+    </div>
+  </section>
+
+  <!-- 3. 關於智秀區塊 -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-24 text-center">
+    <h2 class="text-2xl font-extralight tracking-[0.2em] uppercase mb-8 text-[#555555]">ABOUT JISOO</h2>
+    <div class="space-y-6 text-sm font-light leading-relaxed tracking-widest text-gray-600 max-w-2xl mx-auto">
+      <p>JISOO, who debuted with BLACKPINK in 2016, is a multi-talented artist, shining both as a singer and actress.</p>
+      <p>Now established as an icon, JISOO continues to broaden her influence into the realms of fashion, beauty, and beyond.</p>
+    </div>
+    
+    <!-- 社群連結 -->
+    <div class="mt-12 flex justify-center space-x-8 text-xs">
+      <a href="https://www.instagram.com/sooyaaa__/" target="_blank" class="hover:underline">INSTAGRAM</a>
+      <a href="https://www.youtube.com/@sooyaaa__" target="_blank" class="hover:underline">YOUTUBE</a>
+    </div>
+  </section>
+
+  <!-- 4. 頁尾 -->
+  <footer class="bg-[#E4E2EE] text-center py-12 border-t border-gray-300">
+    <p class="text-[10px] tracking-widest text-gray-400">© 2026 BLISSOO FANMADE. ALL RIGHTS RESERVED.</p>
+  </footer>
+
+</body>
+</html>
